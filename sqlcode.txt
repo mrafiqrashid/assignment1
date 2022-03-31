@@ -1,0 +1,12 @@
+CREATE TABLE `db2`.`student` (
+  `id` INT NOT NULL,
+  `name` VARCHAR(45) NOT NULL,
+  `department` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`id`));
+
+INSERT INTO `db2`.`student` (`id`, `Name`, `Department`) VALUES ('206754', 'Zaki', 'PG11');
+INSERT INTO `db2`.`student` (`id`, `Name`, `Department`) VALUES ('211423', 'Fifi', 'PG32');
+INSERT INTO `db2`.`student` (`id`, `Name`, `Department`) VALUES ('232121', 'Nana', 'FSKTM');
+INSERT INTO `db2`.`student` (`id`, `Name`, `Department`) VALUES ('192022', 'Amir', 'PG47');
+INSERT INTO `db2`.`student` (`id`, `Name`, `Department`) VALUES ('243883', 'Akmal', 'PM00');
+INSERT INTO `db2`.`student` (`id`, `Name`, `Department`) VALUES ('190282', 'Carl', 'FKS');
